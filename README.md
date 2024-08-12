@@ -1,24 +1,31 @@
 # url_shortify
 
+##
 URL Shortening Project
 This project is a simple Flask application that allows users to shorten long URLs and redirect to shortened URLs.
 
-Installation
+	
+## Running project
+Clone project to your computer
 
-Clone this repository:
-git clone https://github.com/your_username/url_shortify.git
+	git clone https://github.com/busraocal/url_shortify.git
+ 
+Navigate to the project directory
 
-Navigate to the project directory:
-cd url_shortify
+	cd url_sortify
 
-Install the required dependencies:
-pip install -r requirements.txt
+Install require packages
 
-Configure the .flaskenv file:
-FLASK_RUN_HOST=127.0.0.1
-FLASK_RUN_PORT=8080
-FLASK_DEBUG=1
-DATABASE_URL=postgresql://username:password@localhost/db_name
+	pip install -r requirements.txt
 
-Start the Flask application:
-flask run
+Configure the .flaskenv file
+
+	FLASK_RUN_HOST=127.0.0.1
+  FLASK_RUN_PORT=8080
+  FLASK_DEBUG=1
+  DATABASE_URL=postgresql://username:password@localhost/db_name
+
+		
+Start the Flask application
+
+	flask run
